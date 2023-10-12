@@ -41,3 +41,20 @@ We are only interested in Name, Age, Gender, phone, email, address, current desi
 1. Ask user to login with mobile number and OTP.
 2. If user exist OK else sing in and 
 
+
+# 13/10/2023
+So to keep building we decided to build the login page of the inteface in Android First and then see where we go. 
+
+- Firebase Prj creation : 
+    - Enable Authentication
+        - Go to firebase console and create a new prj.
+        - Go to Auth Section and enable email and Google based login.
+        - Go prj setting and enable keys for admin sdk and download it.
+    - Enable Hosting.
+
+```
+
+I think we should add three type of login option. mob/otp , email/otp , username/pass, google signin, aadhar/otp signin and aadhar/biometric auth.
+
+Once logged in user should used any method. All should link to one user account in the backend.
+
